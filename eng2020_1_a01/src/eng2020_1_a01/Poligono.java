@@ -1,6 +1,6 @@
 package eng2020_1_a01;
 
-public abstract class Poligono extends Figura {
+public abstract class Poligono extends Doisd {
 	private double base, altura;
 	
 	public Poligono(double base, double altura) {

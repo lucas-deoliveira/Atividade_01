@@ -13,9 +13,9 @@ public class Geometria {
 		figuras.add(new Circulo(10.0));
 		figuras.add(new Retangulo(5, 10));
 		figuras.add(new Quadrado(10));
-		figuras.add(new Triangulo(6, 3));
+		figuras.add(new Triangulo(6, 3, 3, 5 , 7));
 		figuras.add(new Losango(4, 8));
-		figuras.add(new Trapezio(8, 3, 10));
+		figuras.add(new Trapezio(8, 3, 10, 5, 5));
 		
 		
 		for(Figura figura: figuras) {

@@ -1,10 +1,12 @@
 package eng2020_1_a01;
 
 public class Triangulo extends Poligono {
-
-	public Triangulo(double base, double altura) {
+	private double lado1, lado2, lado3;
+	public Triangulo(double base, double altura, double lado1, double lado2, double lado3) {
 		super(base, altura);
-		// TODO Auto-generated constructor stub
+		this.lado1 = lado1;
+		this.lado2 = lado2;
+		this.lado3 = lado3;
 	}
 
 	public Triangulo() {
@@ -18,7 +20,7 @@ public class Triangulo extends Poligono {
 
 	@Override
 	public double perimetro() {
-		return 0;
+		return lado1 + lado2 + lado3;
 	}
 
 	@Override

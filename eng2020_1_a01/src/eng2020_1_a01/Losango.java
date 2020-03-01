@@ -26,4 +26,6 @@ public class Losango extends Poligono {
 		return "Losango [getBase()=" + getBase() + ", getAltura()=" + getAltura() + "]";
 	}
 
+
+
 }
