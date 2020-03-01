@@ -16,6 +16,10 @@ public class Geometria {
 		figuras.add(new Triangulo(6, 3, 3, 5 , 7));
 		figuras.add(new Losango(4, 8));
 		figuras.add(new Trapezio(8, 3, 10, 5, 5));
+		figuras.add(new Cilindro(10 , 3));
+		figuras.add(new Cubo(5, 5, 5));
+		figuras.add(new Esfera(4.0));
+		figuras.add(new Piramide(3, 5, 3));
 		
 		
 		for(Figura figura: figuras) {

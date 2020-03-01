@@ -1,14 +1,13 @@
 package eng2020_1_a01;
 
 public class Cilindro extends Tresd {
-	private double base, altura, raio;
+	private double altura, raio;
 	
 	public Cilindro() {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public Cilindro(double base, double altura, double raio) {
-		this.base = base;
+	public Cilindro(double altura, double raio) {
 		this.altura = altura;
 		this.raio = raio;
 	}
@@ -22,15 +21,7 @@ public class Cilindro extends Tresd {
 
 	@Override
 	public String toString() {
-		return "Cilindro [base=" + base + ", altura=" + altura + ", raio=" + raio + "]";
-	}
-
-	public double getBase() {
-		return base;
-	}
-
-	public void setBase(double base) {
-		this.base = base;
+		return "Cilindro [altura=" + altura + ", raio=" + raio + "]";
 	}
 
 	public double getAltura() {
