@@ -12,9 +12,7 @@ public class Cilindro extends Tresd {
 		this.altura = altura;
 		this.raio = raio;
 	}
-	public double area() {
-		return 2 * (Math.PI * Math.pow(getRaio(), 2)) + 2 * (Math.PI * getRaio() * getAltura() );
-	}
+	
 
 	@Override
 	public double volume() {
