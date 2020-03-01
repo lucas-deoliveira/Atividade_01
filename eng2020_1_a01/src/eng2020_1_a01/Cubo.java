@@ -17,6 +17,10 @@ public class Cubo extends Tresd {
 		// TODO Auto-generated method stub
 		return getBase() * getAltura() * getProfundidade();
 	}
+	@Override
+	public String toString() {
+		return "Cubo [base=" + base + ", altura=" + altura + ", profundidade=" + profundidade + "]";
+	}
 	public double getBase() {
 		return base;
 	}
