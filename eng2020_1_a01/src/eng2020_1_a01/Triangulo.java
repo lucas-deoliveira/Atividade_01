@@ -16,4 +16,14 @@ public class Triangulo extends Poligono {
 		
 	}
 
+	@Override
+	public double perimetro() {
+		return 0;
+	}
+
+	@Override
+	public String toString() {
+		return "Triangulo [getBase()=" + getBase() + ", getAltura()=" + getAltura() + "]";
+	}
+
 }

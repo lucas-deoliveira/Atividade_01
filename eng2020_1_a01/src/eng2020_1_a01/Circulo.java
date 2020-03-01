@@ -22,5 +22,9 @@ public class Circulo extends Figura {
 	public String toString() {
 		return "Circulo [raio=" + raio + "]";
 	}
+	@Override
+	public double perimetro() {
+		return 2 * Math.PI * raio;
+	}
 	
 }

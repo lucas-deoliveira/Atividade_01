@@ -15,4 +15,15 @@ public class Losango extends Poligono {
 		return getBase() * getAltura();
 	}
 
+	@Override
+	public double perimetro() {
+		// TODO Auto-generated method stub
+		return 4 * getBase();
+	}
+
+	@Override
+	public String toString() {
+		return "Losango [getBase()=" + getBase() + ", getAltura()=" + getAltura() + "]";
+	}
+
 }
