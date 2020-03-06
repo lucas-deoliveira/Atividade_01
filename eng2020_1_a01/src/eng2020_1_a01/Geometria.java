@@ -26,7 +26,7 @@ public class Geometria {
 			System.out.println(" ");
 			System.out.println("*********************************");
 			System.out.println(figura);
-			System.out.println("¡rea = " + figura.area());
+			System.out.println("√Årea = " + figura.area());
 			System.out.println("Perimetro = " + figura.perimetro());
 			if (figura instanceof Diagonal) {
 				Diagonal d = (Diagonal)figura;
